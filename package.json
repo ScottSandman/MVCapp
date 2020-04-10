@@ -1,0 +1,26 @@
+{
+  "name": "mvcapp",
+  "version": "1.0.0",
+  "description": "JRS Model, View, Controller App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottSandman/MVCapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottSandman/MVCapp/issues"
+  },
+  "homepage": "https://github.com/ScottSandman/MVCapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "mongoose-sequence": "^5.2.2"
+  }
+}

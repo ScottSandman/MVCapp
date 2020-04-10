@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books - Model View Controller</title>
+    <link rel="stylesheet" type="text/css" href="/styleCSS" />
+    <script src="/mainJS"></script>
+  </head>
+  <body>
+    <header>
+      <div id="date" class="date"></div>
+      <div id="title" class="title">Books | Books | Books</div>
+      <div id="menu" class="menu">
+        <button type="submit" id="sign-up" onclick="renderSignUp()">
+          Sign Up
+        </button>
+        <button type="submit" id="sign-in" onclick="renderSignIn()">
+          Sign In
+        </button>
+        <button type="submit" onclick="getAuthors()">Authors</button>
+        <button type="submit" onclick="getBooks()">Books</button>
+        <button type="submit" onclick="renderAddBook()">Add Book</button>
+      </div>
+    </header>
+    <div class="container">
+      <div id="render" class="render"></div>
+    </div>
+  </body>
+</html>

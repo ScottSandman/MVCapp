@@ -1,0 +1,89 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-stretch: expanded;
+  margin: 0;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+  width: 100vw;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 80px;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.render {
+  background-color: darkslateblue;
+  color: white;
+  width: 85vw;
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+}
+
+li {
+  margin: 5px;
+  list-style-type: none;
+}
+
+.author {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+
+.add-book,
+.edit-book,
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 10px auto 10px auto;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px auto 10px auto;
+}
+
+label,
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* .sign-in {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px auto 10px auto;
+} */
