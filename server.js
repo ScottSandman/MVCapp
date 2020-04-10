@@ -13,13 +13,10 @@ const app = express();
 const PORT = 3000;
 
 //database connection
-mongoose.connect(
-  "mongodb+srv://admin:wafflehouse@cluster0-roogv.mongodb.net/test?retryWrites=true&w=majority",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  }
-);
+mongoose.connect("", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 //body parser for url encoding and json
 app.use(bodyParser.urlencoded({ extended: true }));
